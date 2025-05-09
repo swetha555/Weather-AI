@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {},
+  "portsAttributes": {
+    "5173": {
+      "label": "Vite Port",
+      "onAutoForward": "openPreview" //openBrowser if you wanna open in a browser
+    }
+  },
+  "forwardPorts":[5173]
+}
